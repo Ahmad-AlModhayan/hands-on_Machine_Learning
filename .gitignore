@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Exclude large model files
+*.model
+*.pt
+*.pth
+*.ckpt
+*.pb
+saved_models/
+
+# TensorFlow
+*.tfrecord
+*.tfevents.*
+logs/
+tensorboard/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Datasets (uncomment specific ones you want to track)
+# datasets/
+# data/
+
+# Trained models
+models/
+checkpoints/
+
+# Output files
+outputs/
+results/
